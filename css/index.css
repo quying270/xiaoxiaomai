@@ -1,0 +1,220 @@
+
+.indexBgOne,.indexBgTwo,.indexBgThree, .indexBgFour, .indexBgFive, .indexBgSix{
+    width: 100%;
+    min-width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.indexBgTwo > div,.indexBgThree > div, .indexBgFour > div, .indexBgFive > div{
+    max-width: 1200px;
+}
+.indexBgOne{
+	background: #f3f3f3 url('../images/indexBg1.jpg') no-repeat center bottom;
+    height: 623px;
+}
+.indexBgTwo{
+	background: #f3f3f3 url('../images/indexBg2.jpg') no-repeat center bottom;
+}
+.indexBgThree{
+	background: #f3f3f3 url('../images/indexBg3.jpg') no-repeat center bottom;
+}
+.indexBgFour{
+    background: #f3f3f3 url('../images/indexBg4.jpg') no-repeat center bottom;
+}
+.indexBgFive{
+    background: #f3f3f3 url('../images/indexBg5.jpg') no-repeat center bottom;
+    text-align: center;
+}
+.indexBgSix{
+    height: 1500px;
+    /*background: #f3f3f3 url('../images/indexBg6.jpg') no-repeat center bottom;*/
+}
+.indexBgOne ul{
+    width: 550px;
+    margin: 120px auto;
+    padding-left: 670px;
+} 
+.indexBgOne ul li{
+    font-size: 20px;
+}
+.indexBgOne ul li:first-child{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.bhuHeaderNav .follow{
+    position: relative;
+    color: #77b55f; 
+    height: 69px;
+}
+.follow:hover .follow-wechat{
+    display: inline-block;
+}
+.bhuHeaderNav ul .follow-wechat{
+    display: none;
+    position: absolute;
+    /*top: 60px;*/
+    right: 40px;
+ } 
+.add{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 25px;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 30px;
+}
+.add:hover .wechat{
+    display: inline-block;
+}
+.wechat{
+    display: none;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.indexBgTwo div, .indexBgThree div, .indexBgFour div{
+    margin: 120px auto;
+}
+.indexBgTwo ul, .indexBgFour ul{
+    float: right;
+}
+.indexBgThree ul{
+    max-width: 1200px;
+    margin: 120px auto;
+}
+
+.indexBgTwo ul li, .indexBgThree ul li, .indexBgFour ul li{
+    font-size: 24px;
+    color: #898f88;
+}
+.indexBgTwo ul li:first-child, .indexBgThree ul li:first-child, .indexBgFour ul li:first-child{
+    margin-bottom: 10px;
+    font-size: 48px;
+    color: #5d645c;
+}
+.indexBgTwo ul li:last-child, .indexBgFour ul li:last-child{
+    width: 700px;
+}
+.indexBgThree ul li:last-child{
+    width: 480px;
+}
+.indexBgFive ul{
+    margin: 120px auto;
+}
+.indexBgFive ul li{
+    font-size: 24px;
+    line-height: 1.5em;
+}
+.indexBgFive ul li:first-child{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.indexBgSix{
+    text-align: center;
+}
+.indexBgSix .title{
+    margin: 70px;
+    font-size: 60px;
+    color: #6f6f6f;
+}
+.indexBgSix .content{
+    width: 1140px;
+    height: 1190px;
+    margin: -8px auto;
+    padding: 0 30px;
+}
+.indexBgSix .content li:first-child{
+    width: 100%;
+    height: 185px;
+}
+.indexBgSix .content li{
+    width: 100%;
+    height: 99px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    font-size: 24px;
+    line-height: 99px;
+    color: #6f6f6f;
+}
+.indexBgSix .content li:first-child{
+    font-size: 30px;
+    color: #fff; 
+    line-height: 1;
+}
+.indexBgSix .content li:first-child  > div:first-child{
+    line-height: 185px;
+}
+.indexBgSix .content li:first-child  > div:nth-child(2){
+    height: 135px;
+    padding-top: 50px;
+}
+.indexBgSix .content li:first-child  > div:nth-child(3){
+    height: 165px;
+    padding-top: 20px;
+}
+.indexBgSix .content li:first-child  > div:last-child{
+    height: 165px;
+    padding-top: 20px;
+}
+.indexBgSix .content li > div{
+    float: left;
+    width: 26.5%;
+    height: 100%;
+    border-right: 1px solid #fff;
+}
+.indexBgSix .content li .btn{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #fff;
+    line-height: 50px;
+    margin: 20px auto;
+    border-radius: 50px;
+}
+.indexBgSix .content li > div:first-child{
+    width: 23%;
+    background-color: #f1f1f1;
+}
+.indexBgSix .content li > div:nth-child(2){
+    background-color: #e9e9e9;
+}
+.indexBgSix .content li > div:nth-child(3){
+    background-color: #e4e3e3;
+}
+.indexBgSix .content li > div:last-child{
+    width: 23%;
+    border-right: none;
+    background-color: #dedede;
+}
+.indexBgSix .content li:first-child > div{
+    background-color: #89ce6e;
+}
+.yellow{
+    display: block;
+    color:yellow;
+}
+.btn{
+    position: relative;
+}
+.btn > a{
+    color: #fff;
+}
+.btn > div{
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: -100px;
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #ddd;
+    font-size: 26px;
+    color: #000;
+    border-radius: 50px;
+}
+
+
+
