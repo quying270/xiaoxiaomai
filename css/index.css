@@ -1,5 +1,5 @@
 
-.indexBgOne,.indexBgTwo,.indexBgThree, .indexBgFour, .indexBgFive, .indexBgSix{
+.indexBgOne,.indexBgTwo,.indexBgThree, .indexBgFour, .indexBgFive, .indexBgSix, .indexBgSev, .indexBgEight, .indexBgNine{
     width: 100%;
     min-width: 1200px;
     height: 500px;
@@ -29,6 +29,11 @@
 .indexBgSix{
     height: 1500px;
     /*background: #f3f3f3 url('../images/indexBg6.jpg') no-repeat center bottom;*/
+}
+.indexBgEight{
+    height: 336px;
+    background: #f3f3f3 url('../images/indexBg7.jpg') no-repeat center bottom;
+    text-align: center;
 }
 .indexBgOne ul{
     width: 550px;
@@ -74,7 +79,7 @@
     display: none;
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 10px;
 }
 .indexBgTwo div, .indexBgThree div, .indexBgFour div{
     margin: 120px auto;
@@ -216,5 +221,32 @@
     border-radius: 50px;
 }
 
+.indexBgSev{
+    height: 400px;
+    text-align: center;
+    color: #6f6f6f;
+}
+.indexBgSev ul{
+    margin: 120px auto;
+}
+.indexBgSev ul li{
+    font-size: 24px;
+    line-height: 1.5em;
+}
+.indexBgSev ul li:first-child{
+    margin-bottom: 10px;
+    font-size: 60px;
+}
+.indexBgNine{
+    height: 400px;
+    margin-top: 100px;
+    line-height: 1.3em;
+    text-align: center;
+    color: #6f6f6f;
+    font-size: 36px;
+}
+.indexBgNine ul li:first-child{
+    font-size: 24px;
+}
 
 

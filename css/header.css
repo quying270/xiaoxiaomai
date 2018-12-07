@@ -16,10 +16,10 @@
 	line-height: 69px;
 }
 .bhuHeaderNav>ul>li:nth-child(1){
-	padding-right: 0;
+	/*padding-right: 0;*/
 }
 .bhuHeaderNav>ul>li:nth-child(2){
-	padding: 0 60px;
+	/*padding: 0 60px;*/
 }
 .bhuHeaderNav>ul>li:nth-child(3){
 	padding-left: 0;
